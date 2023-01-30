@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  border:none;
+}
+
+body {
+  font-family:Lora, sans-serif;
+  color:#777777;
+}
+h2{
+  font-family:sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #555555;
+}
+
+#logo{
+  float: left;
+  font-size:280% ;
+  margin-left: 1.875rem;
+}
+
+#menu{
+  font-size:110%;
+  list-style-type: none;
+  letter-spacing: 0.125rem;
+}
+
+#logo, #menu{
+  line-height: 4.6rem;
+}
+
+#menu li{
+  float: right;
+  margin-right: 1.875rem;
+}
+
+#menu a{
+  text-decoration: none;
+  color:inherit;
+}
+
+#menu a:hover{
+  border-bottom: 1px solid #777777;
+}
+
+.active{
+  border-bottom: 1px solid #777777;
+}
+
+#hero-image{
+  height: 600px;
+  width: 100%;
+  background: url(../img/bramble.jpg) no-repeat center center;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#hero-outer{
+  height: 600px;
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+}
+
+@keyframes hero-zoom{
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
+
+#cover-text, #cover-text h2 {
+  color:#ffffff;
+}
+
+#cover-text {
+
+  font-size: 130%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+
+  width: 350px;
+  height: 150px;
+
+  padding: 30px;
+  border-radius: 10px;
+
+  background-color: rgba(148, 185, 45, 0.7); 
+
+  top:30px;
+  right:30px;
+  position:absolute;
+
+}
+.button {
+  background-color: rgb(167, 17, 17);
+  border: none;
+  color:#ffffff ;
+  padding: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  box-shadow: 0.2125rem 0.225rem white;
+  margin-top: 1.875rem;
+}
+#our-ethos{
+  height: 600px;
+}
+#moto{
+  text-align:center;
+  margin:0;
+  padding:1.875rem;
+  font-size:280%;
+  text-transform:uppercase;
+  line-height:1;
+}
+
+#container-1, #container-2, #container-3, #container-4{
+  padding-top: 30px;
+  width: 80%;
+  height: 150px;
+  float: none;
+  border:solid 2px black;
+  background-color: #777777;
+  text-align: left;
+  
+}
+
+#reasons{
+  height: 550px;
+  background-color: rgb(115, 212, 115);
+  overflow-y: hidden;
+
+}
+#single-reason{
+  background: white;
+  width: 23%;
+  height: 450px;
+  float: left;
+  margin: 17px;
+}
+
+div > h2{
+  text-align: center;
+}
+
+#organic-img{
+  height:200px;
+  width: 200px;
+
+  object-fit: cover;
+  overflow: hidden;
+  background-image: url(../img/hazelnut-mug.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 50px;
+  margin-left: 70px;
+}
+
+
+#right-about{
+  padding-top: 30px;
+  width: 25%;
+  float: right;
+}
+
+#right-middle, #left-middle {
+  padding-top: 30px;
+  width:25%;
+  margin: 0 auto;
+  
+}
+
+/* footer sstyling*/
+
+footer{
+  height: 14.1rem;
+  padding-top: 1rem;
+}
+
+#all-footer{
+  width: 43.75rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3rem;
+
+}
+
+#footer-left{
+  float: left;
+  text-align: left;
+}
+
+#footer-right{
+  float: right;
+  text-align: right;
+}
+.social-networks{
+  text-align: right;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 2%;
+  color: #777777;
+}
