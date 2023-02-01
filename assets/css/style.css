@@ -9,17 +9,24 @@ body {
   font-family:Lora, sans-serif;
   color:#777777;
 }
-h2{
-  font-family:sans-serif;
+h2, h3, h4{
+  font-family:Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #555555;
 }
 
 #logo{
+  width: 500px;
+  height: 150px;
+  
+  
   float: left;
   font-size:280% ;
   margin-left: 1.875rem;
+  background-image: url(../img/Logo-AF.png);
+  background-size: cover;
+  background-position: left;
 }
 
 #menu{
@@ -28,13 +35,13 @@ h2{
   letter-spacing: 0.125rem;
 }
 
-#logo, #menu{
+#menu{
   line-height: 4.6rem;
 }
 
 #menu li{
   float: right;
-  margin-right: 1.875rem;
+  margin-right: 2.875rem;
 }
 
 #menu a{
@@ -82,8 +89,8 @@ h2{
 
 #cover-text {
 
-  font-size: 130%;
-  font-family: Oswald;
+  font-size: 110%;
+  font-family: Poppins;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
@@ -105,14 +112,14 @@ h2{
   background-color: rgb(167, 17, 17);
   border: none;
   color:#ffffff ;
-  padding: 1.25rem;
+  padding: 1.00rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.25rem;
   border-radius: 6px;
   box-shadow: 0.2125rem 0.225rem white;
-  margin-top: 1.875rem;
+  margin-top: 0.575rem;
 }
 #our-ethos{
   height: 600px;
@@ -183,7 +190,7 @@ div > h2{
   
 }
 
-/* footer sstyling*/
+/* footer styling*/
 
 footer{
   height: 14.1rem;
@@ -191,7 +198,7 @@ footer{
 }
 
 #all-footer{
-  width: 43.75rem;
+  width:100.75rem;
   margin: 0 auto;
   text-align: center;
   padding-top: 3rem;
@@ -206,6 +213,18 @@ footer{
 #footer-right{
   float: right;
   text-align: right;
+}
+
+#footer-logo{
+  width:350px;
+  height: 100px;
+
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  background-image: url(../img/Logo-AF.png);
+  background-size: cover;
+  background-position: center;
 }
 .social-networks{
   text-align: right;
