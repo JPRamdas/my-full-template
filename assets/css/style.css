@@ -109,7 +109,7 @@ h2, h3, h4{
 
 }
 .button {
-  background-color: rgb(167, 17, 17);
+  background-color: rgb(61, 8, 15);
   border: none;
   color:#ffffff ;
   padding: 1.00rem;
@@ -146,36 +146,45 @@ h2, h3, h4{
 
 #reasons{
   height: 550px;
-  background-color: rgb(115, 212, 115);
+  background-color: rgb(61, 8, 15);
   overflow-y: hidden;
+  width: 100%;
 
 }
-#single-reason{
+.reason-box{
   background: white;
   width: 23%;
-  height: 450px;
+  height: 500px;
   float: left;
-  margin: 17px;
+  margin: 1rem;
+  border: brown;
+  border-radius: 1rem;
+ 
 }
 
-div > h2{
+.reason-box h3{
   text-align: center;
+  font-size: 200%;
 }
 
-#organic-img{
-  height:200px;
-  width: 200px;
-
-  object-fit: cover;
-  overflow: hidden;
-  background-image: url(../img/hazelnut-mug.jpg);
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center;
-  padding: 50px;
-  margin-left: 70px;
+.reason-box img{
+  width: 350px;
+  height: 220px;
+  border-radius: 1.5rem;
+  margin: 1rem 2rem 1rem;
+ 
 }
 
+.ex-text{
+  width: 100%;
+  border: #777777;
+}
+
+.ex-text p{
+  padding: 1rem;
+  font-size: 120%;
+
+}
 
 #right-about{
   padding-top: 30px;
