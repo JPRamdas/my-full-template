@@ -95,8 +95,8 @@ h2, h3, h4{
   letter-spacing: 4px;
   text-align: center;
 
-  width: 350px;
-  height: 150px;
+  width: 400px;
+  height: 220px;
 
   padding: 30px;
   border-radius: 10px;
@@ -119,10 +119,11 @@ h2, h3, h4{
   font-size: 1.25rem;
   border-radius: 6px;
   box-shadow: 0.2125rem 0.225rem white;
-  margin-top: 0.575rem;
+  margin-top: 0.375rem;
 }
 #our-ethos{
-  height: 600px;
+  height: 650px;
+
 }
 #moto{
   text-align:center;
@@ -133,22 +134,14 @@ h2, h3, h4{
   line-height:1;
 }
 
-#container-1, #container-2, #container-3, #container-4{
-  padding-top: 30px;
-  width: 80%;
-  height: 150px;
-  float: none;
-  border:solid 2px black;
-  background-color: #777777;
-  text-align: left;
-  
-}
 
 #reasons{
   height: 550px;
-  background-color: rgb(61, 8, 15);
+  /*background-color: rgb(61, 8, 15);*/
   overflow-y: hidden;
   width: 100%;
+  border-color: rgb(61, 8, 15);
+  border-radius: 2rem;
 
 }
 .reason-box{
@@ -186,31 +179,20 @@ h2, h3, h4{
 
 }
 
-#right-about{
-  padding-top: 30px;
-  width: 25%;
-  float: right;
-}
-
-#right-middle, #left-middle {
-  padding-top: 30px;
-  width:25%;
-  margin: 0 auto;
-  
-}
 
 /* footer styling*/
 
 footer{
   height: 14.1rem;
   padding-top: 1rem;
+ 
 }
 
 #all-footer{
   width:100.75rem;
   margin: 0 auto;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 0.5rem;
 
 }
 
@@ -248,4 +230,83 @@ footer{
   margin: 1%;
   padding: 2%;
   color: #777777;
+}
+
+@media screen and (max-width: 1300px) {
+  #hero-image, #hero-outer {
+     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  #menu {
+     clear: left;
+     float: left;
+     margin-left: 1.7rem;
+     margin-bottom: 1.25rem;
+     line-height: 1.56rem;
+     width: 90%;
+  }
+  #logo{
+    width: 330px;
+    height: 100px;
+
+  }
+   
+  #our-ethos{
+    width: 90%;
+    height: 2100px;
+    margin: 0 auto;
+  }
+  #cover-text{
+      left:0px;
+      border-radius: 0;
+
+  }
+
+  #moto{
+    font-size:95%;
+  }
+  .reason-box{
+    float: none;
+    display: block;
+    width: inherit;
+  }
+
+  .reason-box h3{
+    width: 100%;
+    text-align: center;
+  }
+
+  .reason-box p{
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+#footer-logo{
+  display: none;
+}
+
+#footer-left, #footer-right{
+  float: none;
+  text-align: center;
+}
+
+.social-networks{
+  text-align: center;
+
+}
+
+#all-footer{
+  width: 80%;
+  
+}
+
+
+
+
+
+
+
+
 }
