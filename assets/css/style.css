@@ -254,10 +254,12 @@ footer{
 
   }
    
-  #our-ethos{
-    width: 90%;
-    height: 2100px;
+  #our-ethos, #reasons{
+    width: 100%;
+    height: 2300px;
     margin: 0 auto;
+    padding: 0.25rem;  
+    text-align: center;
   }
   #cover-text{
       left:0px;
@@ -266,10 +268,11 @@ footer{
   }
 
   #moto{
-    font-size:95%;
+    font-size:120%;
+    
   }
   .reason-box{
-    float: none;
+    float:right;
     display: block;
     width: inherit;
   }
