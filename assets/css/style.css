@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
 *{
   margin:0;
   padding:0;
   border:none;
 }
-
 body {
-  font-family:Lora, sans-serif;
+  font-family:Poppins, sans-serif;
   color:#777777;
 }
 h2, h3, h4{
@@ -14,6 +14,32 @@ h2, h3, h4{
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #555555;
+}
+.logo{
+  font-family: 'Romanesco', poppins;
+  font-size: 300%;
+  color:#000;
+  margin-left: 2rem;
+  text-transform: none;
+}
+.navbar{
+  font-size: 150%;
+  position: relative;
+  background-color: rgb(216, 176, 43);
+
+}
+footer{
+  background-color: rgb(216, 176, 43);
+
+}
+
+footer h3, h6, p{
+  color: #000;
+}
+
+h2 img{
+  max-width: 200px;
+  max-height: 110px;
 }
 
 #logo{
@@ -179,13 +205,17 @@ h2, h3, h4{
 
 }
 
+.h-nut-bg{
+  background-image: url(../img/hazelnut-bg.jpg);  
+  background-size: cover;
+}
 
 /* footer styling*/
 
 footer{
-  height: 14.1rem;
-  padding-top: 1rem;
- 
+  /*height: 14.1rem;
+  padding-top: 1rem;*/
+  
 }
 
 #all-footer{
@@ -305,18 +335,10 @@ footer{
   
 }
 
-
-
-
-
-
-
-
 }
 
-.plant{
- height: 300px;
- width: 100%;
- background-color: greenyellow;
+/* background color to override Bootstrap*/
 
+.back-theme{
+  background-color: rgba(148, 185, 45,);
 }
