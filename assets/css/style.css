@@ -43,10 +43,17 @@ footer h3, h6, p{
   border-radius: 0.5rem;
 }
 
-.h1 h5{
+.reason-text{
   min-height: 260px;
 }
 
+.my-bg-1{
+  background-color: rgba(29, 31, 23, 0.7);
+}
+
+.my-event{
+  color: white;
+}
 #logo{
   width: 500px;
   height: 150px;
@@ -341,3 +348,6 @@ footer{
 .back-theme{
   background-color: rgba(148, 185, 45,);
 }
+ /*Join Us */
+
+ 
