@@ -11,17 +11,15 @@
     <title>Amman Foragers</title>
 </head>
 <body>
+    <!-- navbar section-->
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
             <a href="#" class="navbar-brand logo">Amman<i class="bi bi-tree"></i>Foragers</a>
-
             <button class="navbar-toggler" type="button" 
                 data-bs-toggle="collapse" 
                 data-bs-target="#navmenu">
-
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navmenu">
              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -34,45 +32,31 @@
                     <a href="#" class="nav-link active">Join Us</a>
                 </li>
              </ul>   
-
-
             </div>
         </div> 
     </nav> 
-
-
+<!-- form section -->
 <section class="form-section">
-       
         <form class="joinus-form" action="https://formdump.codeinstitute.net/" method="POST">
           <h2>Let's get you foraging <i class="fa-solid fa-chestnut"></i></h2>
-  
           <label for="fname">First Name</label>
           <input class="text-input" id="fname" type="text" name="first_name" required>
-    
           <label for="lname">Last Name</label>
           <input class="text-input" id="lname" type="text" name="last_name" required>
-        
           <label for="email">Email Address</label>
           <input class="text-input" id="email" type="email" name="email_address" required>
-          
           <label for="b-pick"> Blackberry Picking</label>
-          <input id="b-pick" type="checkbox" name="activity-choice" value="b-pick" required>
-          
+          <input id="b-pick" type="checkbox" name="event1" value="Blackberry Picking" >
           <label for="jam"> Jam Workshop</label>
-          <input id="jam" type="checkbox" name="activity-choice" value="jam">
-   
+          <input id="jam" type="checkbox" name="event2" value="Jam Workshop">
           <label for="wine"> Wine Workshop</label>
-          <input id="wine" type="checkbox" name="activity-choice" value="wine">
-
+          <input id="wine" type="checkbox" name="event3" value="Wine Workshop">
           <label for="h-pick"> Hazelnut Picking</label>
-          <input id="h-pick" type="checkbox" name="activity-choice" value="h-pick">  
-
+          <input id="h-pick" type="checkbox" name="event4" value="Hazelnut Picking">  
             <input class="join-button" type="submit" value="Let's Forage"/>
-
         </form>
-
 </section> 
-
+<!-- Footer -->
 <footer class="p-3">
     <div class="container-fluid">
         <div class="row text-center">
@@ -91,17 +75,13 @@
                         <a href="#" class="bi bi-twitter text-dark mx-2"></a>
                         <a href="#" class="bi bi-instagram text-dark mx-2"></a>
                         <a href="#" class="bi bi-youtube text-dark mx-2"></a>
-                    </div> 
-                    
+                    </div>    
             </div>
-            
         </div>
     </div>
     <h6 class="mt-4 text-center text-bg-dark">Copyright @2023- (For educational purposes)</h6> 
 </footer>
-
-
-
+    <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
